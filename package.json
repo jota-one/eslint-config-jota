@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-jota",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Jota default linting configuration",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    },
+    "./easier": {
+      "default": "./easier.js"
+    }
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Juniors At Work",
+  "license": "MIT",
+  "dependencies": {
+    "@eslint/js": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-vue": "^9.0.0",
+    "typescript-eslint": "^8.4.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
