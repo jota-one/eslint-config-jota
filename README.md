@@ -58,3 +58,8 @@ export default tseslint.config(
     }
 )
 ```
+
+## Build and deploy
+This app is automatically deployed on npm when a commit is pushed on `main`.
+
+A PR should be done against `main` at first.
