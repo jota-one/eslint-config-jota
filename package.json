@@ -34,7 +34,7 @@
     "typescript": "^5.0.0"
   },
   "devDependencies": {
-    "auto": "^11.2.1"
+    "auto": "^11.3.0"
   },
   "volta": {
     "node": "22.13.0"
